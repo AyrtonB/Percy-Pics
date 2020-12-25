@@ -15,7 +15,7 @@ from dagster import execute_pipeline, pipeline, solid, Field
 @solid()
 def download_and_save_posts(_, fp: str):
     loader = instagram.initialise_loader()
-    df_posts = instagram.retrieve_posts(loader)
+    df_posts = instagram.retrieve_posts(loader, fp)
 
     df_posts.to_csv(fp, index=False)
 

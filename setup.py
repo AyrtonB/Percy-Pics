@@ -22,4 +22,5 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
     ],
     python_requires=f">={setup_kwargs['min_python']}",
+    install_requires=setup_kwargs['requirements'].split(' '),
 )

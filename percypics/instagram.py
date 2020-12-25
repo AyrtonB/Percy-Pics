@@ -75,6 +75,8 @@ def extract_post_content(posts, latest_recorded_post_date=None):
             'media_url': post_to_media_url(post)
         }]
 
+        time.sleep(1)
+
     return post_content
 
 def retrieve_posts(loader, fp):

@@ -3,6 +3,7 @@ setup.py
 percypics/__init__.py
 percypics/_nbdev.py
 percypics/instagram.py
+percypics/pipeline.py
 percypics/whatsapp.py
 percypics.egg-info/PKG-INFO
 percypics.egg-info/SOURCES.txt
