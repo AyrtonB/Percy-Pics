@@ -8,4 +8,5 @@ percypics/whatsapp.py
 percypics.egg-info/PKG-INFO
 percypics.egg-info/SOURCES.txt
 percypics.egg-info/dependency_links.txt
+percypics.egg-info/requires.txt
 percypics.egg-info/top_level.txt
