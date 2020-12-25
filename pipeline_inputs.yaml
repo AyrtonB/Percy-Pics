@@ -1,0 +1,8 @@
+solids:
+  download_and_save_posts:
+    inputs:
+      fp: "data/percy_posts.csv"
+  send_posts_to_recipients:
+    inputs:
+      fp: "data/percy_posts.csv"
+      num_mobs: 4
