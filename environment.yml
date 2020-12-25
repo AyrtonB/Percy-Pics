@@ -1,0 +1,29 @@
+name: PercyPics
+
+channels:
+  - conda-forge
+  - fastai
+
+dependencies:
+  - beautifulsoup4
+  - html5lib
+  - jupyterlab
+  - lxml
+  - matplotlib
+  - pandas
+  - pip
+  - python-dotenv
+  - python=3.7
+  - seaborn
+  - xmltodict
+  - selenium
+  - python-dotenv
+  - twilio
+  - dagster
+  - nbdev
+
+  - pip:
+      - -e .
+      - feautils
+      - instaloader
+      - ipypb

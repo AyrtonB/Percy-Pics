@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: percypics
+Version: 0.0.1
+Summary: percy-pics provides a wrapper for retrieving, saving and sending pictures of Percy
+Home-page: https://github.com/AyrtonB/Percy-Pics
+Author: Ayrton Bourn
+Author-email: ayrtonbourn@outlook.com
+License: UNKNOWN
+Description: # Percy Pics
+        
+        A dog photo bot is for life, not just for Christmas
+        
+        Last updated: 2020-12-10 09:27
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
