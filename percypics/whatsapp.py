@@ -13,10 +13,12 @@ import dotenv
 import logging
 
 # Cell
+from warnings import warn
+
 def initialise_client():
     account_sid = os.getenv('TWILIO_SID')
     auth_token = os.getenv('TWILIO_TOKEN')
-
+    warn(f'{account_sid}, {auth_token}')
     if (account_sid is not None) and (auth_token is not None):
         client = Client(account_sid, auth_token)
     else:
